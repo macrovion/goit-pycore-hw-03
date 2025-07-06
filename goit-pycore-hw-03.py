@@ -21,3 +21,4 @@ def get_days_from_today(date):
     except ValueError as e:
         # Обробка помилок формату дати
         raise ValueError(f"Неправильний формат дати. Очікується 'РРРР-ММ-ДД', отримано: '{date}'")
+        
